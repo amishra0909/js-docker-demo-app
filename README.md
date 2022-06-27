@@ -40,3 +40,8 @@ Step 6: Start your nodejs application locally - go to `app` directory of project
 Step 7: Access you nodejs application UI from browser
 
     http://localhost:3000
+
+#### To build a docker image from the application
+
+    docker build -t my-app:1.0 .
+The dot "." at the end of the command denotes location of the Dockerfile.
